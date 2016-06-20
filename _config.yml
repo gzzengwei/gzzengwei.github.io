@@ -7,20 +7,20 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "Wei's home"
+title_separator          : " | "
+name                     : "Wei Zeng"
+description              : "Just another dev blog"
+url                      : #"https://weizeng.me" the base hostname & protocol for your site e.g. "https://weizeng.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider               : 'disqus' # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : 'gzzengwei-blog' # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -37,7 +37,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : gzzengwei
 facebook:
   username               :
   app_id                 :
@@ -63,10 +63,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Wei Zeng"
+  avatar           : 'https://en.gravatar.com/userimage/19465039/dc07c2438da91c981dad3e42aee2da68.jpg?size=400' #"bio-photo.jpg"
+  bio              : "ruby | javascript dev"
+  location         : "Sydney, Australia"
   email            :
   uri              :
   bitbucket        :
@@ -75,7 +75,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : gzzengwei
   google_plus      :
   keybase          :
   instagram        :
@@ -149,9 +149,9 @@ kramdown:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Sydney # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
